@@ -74,7 +74,10 @@ Visualization is used to support the statistical test results.
 ---
 
 ## ⚡ Conclusion
-- **t-tests** help in checking whether group differences are *real* or just *random chance*.  
-- In the churn dataset, **MonthlyCharges significantly influence churn** → higher charges lead to more churn.  
-- Visualizations (histograms, boxplots) made it easy to **see differences** between groups.  
-- This assignment strengthened understanding of combining **statistics + visualization** in data analysis.  
+- t-tests help in deciding whether group differences are *real* or due to *random chance*.  
+- In practice:  
+  - **Group A vs 80** → No significant difference.  
+  - **Group A vs Group B** → Significant difference.  
+  - **Churn vs MonthlyCharges** → MonthlyCharges significantly affect churn.  
+- Visualizations confirmed the statistical findings.  
+- Thus, hypothesis testing + visualization is a powerful combination for data-driven insights.
